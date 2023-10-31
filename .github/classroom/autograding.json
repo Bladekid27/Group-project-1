@@ -1,0 +1,44 @@
+{
+	"tests": [
+		{
+			"name": "Test I",
+			"setup": "",
+			"run": "timeout 5 g++ -o main main.cpp && ./main",
+			"input": "1",
+			"output": "I",
+			"comparison": "included",
+			"timeout": 1,
+			"points": 5
+		},
+		{
+			"name": "Test V",
+			"setup": "",
+			"run": "timeout 5 g++ -o main main.cpp && ./main",
+			"input": "5",
+			"output": "V",
+			"comparison": "included",
+			"timeout": 1,
+			"points": 5
+		},
+		{
+			"name": "Test X",
+			"setup": "",
+			"run": "timeout 5 g++ -o main main.cpp && ./main",
+			"input": "10",
+			"output": "X",
+			"comparison": "included",
+			"timeout": 1,
+			"points": 5
+		},
+		{
+			"name": "Test Fail",
+			"setup": "",
+			"run": "timeout 5 g++ -o main main.cpp && ./main",
+			"input": "?",
+			"output": "I don't know what you entered",
+			"comparison": "included",
+			"timeout": 1,
+			"points": 5
+		}
+	]
+}
