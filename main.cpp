@@ -12,23 +12,23 @@ score = 0
 
 if (score == 1):
     cout<< " i" << endl;
-if (score == 2):
+else if (score == 2):
     cout<< " ii" << endl;
-if (score == 3):
+else if (score == 3):
     cout<< " iii" << endl;
-if (score == 4):
+else if (score == 4):
     cout<< " iv" << endl;
-if (score == 5):
+else if (score == 5):
     cout<< " v" << endl;
-if (score == 6):
+else if (score == 6):
     cout<< " vi" << endl;
-if (score == 7):
+else if (score == 7):
     cout<< " vii" << endl;
-if (score == 8):
+else if (score == 8):
     cout<< " viii" << endl;
-if (score == 9):
+else if (score == 9):
     cout<< " ix" << endl;
-if (score == 10):
+else if (score == 10):
     cout<< " x" << endl;
 else : 
     cout<< "Invalid input" << endl;
