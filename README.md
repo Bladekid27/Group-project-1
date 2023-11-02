@@ -1,4 +1,4 @@
-# Place program name here.
+# Roman numbers
 Note: This is a group assignment. Please be sure to go to the People page and join a group in the group set titled "Week 03: Programming Assignment #1".
 
 Note: If you do not join a group and work with someone else your score will be reduced by 25%.
@@ -27,3 +27,24 @@ Scoring:
 
 Your program must compile and run to completion with the correct output - 25pts.
 You do not have to create a repo for this assignment.
+
+
+
+
+pseudocode for the program 
+
+#include <iostream>
+
+int main()  { 
+
+<img width="380" alt="image" src="https://github.com/ITCS-2530/week03_programmingassignment_1-Bladekid27/assets/148721801/146df432-e973-4b84-b948-518a3f7c5ebf">
+
+
+
+This is what I had in mind\
+
+
+
+<img width="760" alt="image" src="https://github.com/ITCS-2530/week03_programmingassignment_1-Bladekid27/assets/148721801/d1f54b7c-0f94-470d-9ef3-9411b0502c67">
+
+} 
