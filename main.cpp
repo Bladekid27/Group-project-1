@@ -1,6 +1,6 @@
-// program name goes here
-// your name goes here
-// any example usage or helpful command line arguments go here
+// Roman Numerals
+// Programmers: Ethan Brown, Joey Mei
+// This program will convert inputted numbers from 1-10 into Roman Numerals
 
 #include <iostream>
 using namespace std;
@@ -9,41 +9,45 @@ using namespace std;
 ///////////////////////////////////////
 int main()
 {
+    // Declaring Variables
     int(score) = 0;
+
+        // Getting Input
         cout << " Please Enter a number between 1-10 ", cin >> score;
 
+        // If Statements
         if (score == 1)
-            cout << "i" << endl;
+            cout << "I" << endl;
             
         else if (score == 2)
-            cout << "ii" << endl;
+            cout << "II" << endl;
 
         else if (score == 3)
-            cout << "iii" << endl;
+            cout << "III" << endl;
             
         else if (score == 4) 
-            cout << "iv" << endl;
+            cout << "IV" << endl;
             
         else if (score == 5) 
-            cout << "v" << endl;
+            cout << "V" << endl;
             
         else if (score == 6) 
-            cout << "vi" << endl;
+            cout << "VI" << endl;
             
         else if (score == 7) 
-            cout << "vii" << endl;
+            cout << "VII" << endl;
             
         else if (score == 8) 
-            cout << "viii" << endl;
+            cout << "VIII" << endl;
             
         else if (score == 9) 
-            cout << "ix" << endl;
+            cout << "IX" << endl;
             
         else if (score == 10) 
-            cout << "x" << endl;
+            cout << "X" << endl;
             
         else 
-            cout << "Invalid input" << endl;
+            cout << "I don't know what you entered" << endl;
 
 }
 
