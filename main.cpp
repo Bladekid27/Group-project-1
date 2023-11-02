@@ -13,38 +13,38 @@ int main()
     int(score) = 0;
 
         // Getting Input
-        cout << " Please Enter a number between 1-10 ", cin >> score;
+        cout << "Please Enter a number between 1-10: ", cin >> score;
 
         // If Statements
         if (score == 1)
-            cout << "I" << endl;
+            cout << "Your Roman Numeral is: I" << endl;
             
         else if (score == 2)
-            cout << "II" << endl;
+            cout << "Your Roman Numeral is: II" << endl;
 
         else if (score == 3)
-            cout << "III" << endl;
+            cout << "Your Roman Numeral is: III" << endl;
             
         else if (score == 4) 
-            cout << "IV" << endl;
+            cout << "Your Roman Numeral is: IV" << endl;
             
         else if (score == 5) 
-            cout << "V" << endl;
+            cout << "Your Roman Numeral is: V" << endl;
             
         else if (score == 6) 
-            cout << "VI" << endl;
+            cout << "Your Roman Numeral is: VI" << endl;
             
         else if (score == 7) 
-            cout << "VII" << endl;
+            cout << "Your Roman Numeral is: VII" << endl;
             
         else if (score == 8) 
-            cout << "VIII" << endl;
+            cout << "Your Roman Numeral is: VIII" << endl;
             
         else if (score == 9) 
-            cout << "IX" << endl;
+            cout << "Your Roman Numeral is: IX" << endl;
             
         else if (score == 10) 
-            cout << "X" << endl;
+            cout << "Your Roman Numeral is: X" << endl;
             
         else 
             cout << "I don't know what you entered" << endl;
